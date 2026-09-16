@@ -1,0 +1,418 @@
+<base target="_blank"><style>@layer mm-artifact{body{margin:0;background:#fff}img{display:block;max-width:100%}}</style><style>@layer mm-artifact{:root{--code-bg:#eff1f5;--code-fg:#4c4f69;--code-border:#ccd0da}pre{background:var(--code-bg);color:var(--code-fg);border:1px solid var(--code-border);border-radius:6px;padding:12px 16px;overflow-x:auto;font-size:13px;line-height:1.6;tab-size:4}pre code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;white-space:pre}code:not(pre code){background:rgba(128,128,128,0.15);padding:0.15em 0.4em;border-radius:4px;font-size:0.9em;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}}</style><script>(function(){function S(){var d={};Object.defineProperties(this,{getItem:{value:function(k){return d.hasOwnProperty(k)?d[k]:null}},setItem:{value:function(k,v){var o=d[k]||null;d[k]=String(v);this.length=Object.keys(d).length}},removeItem:{value:function(k){delete d[k];this.length=Object.keys(d).length}},clear:{value:function(){d={};this.length=0}},key:{value:function(i){return Object.keys(d)[i]||null}},length:{value:0,writable:true}})}try{window.localStorage}catch(e){Object.defineProperty(window,'localStorage',{value:new S(),configurable:true})}try{window.sessionStorage}catch(e){Object.defineProperty(window,'sessionStorage',{value:new S(),configurable:true})}var hp=history.pushState;history.pushState=function(){try{hp.apply(history,arguments)}catch(e){}};var hr=history.replaceState;history.replaceState=function(){try{hr.apply(history,arguments)}catch(e){}};try{document.cookie}catch(e){Object.defineProperty(document,'cookie',{get:function(){return ''},set:function(){},configurable:true})}})();</script><script>document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(!a)return;e.preventDefault();var id=a.getAttribute('href').slice(1);if(!id)return;var el=document.getElementById(id);if(el){el.scrollIntoView({behavior:'smooth',block:'start'});}try{history.replaceState(null,'','#'+id)}catch(e){}});</script><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#164e63">
+<title>Tahoe Trip Sept 26-Oct 2, 2026 — 2028 Garmish Ct</title>
+<style>
+:root{--ink:#18323b;--muted:#58717a;--lake:#0f6b78;--lake-dark:#164e63;--pine:#2e6855;--mist:#eef6f5;--line:#d8e6e4;--sun:#f4b860;--paper:#fff;--shadow:0 18px 45px rgba(26,66,73,.11)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);background:radial-gradient(circle at 8% 0%,#dcefee 0,transparent 30rem),linear-gradient(180deg,#f8fbfa 0%,#edf4f2 100%);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.65}
+.page-shell{width:min(1120px,calc(100% - 32px));margin:0 auto;padding:36px 0 56px}
+.hero{position:relative;overflow:hidden;padding:clamp(24px,5vw,48px);border:1px solid rgba(255,255,255,.45);border-radius:28px;color:#fff;background:linear-gradient(135deg,#123f4e 0%,#176d78 58%,#39826d 100%);box-shadow:var(--shadow)}
+.hero::after{content:"";position:absolute;right:-70px;bottom:-105px;width:310px;height:250px;border:46px solid rgba(255,255,255,.08);border-radius:50%;transform:rotate(-18deg)}
+.hero-copy{position:relative;z-index:1;max-width:820px}
+.eyebrow{margin:0 0 8px;color:#c9ebe5;font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+h1{max-width:18ch;margin:0 0 10px;font-size:clamp(32px,6vw,56px);line-height:1.03;letter-spacing:-.04em;text-wrap:balance}
+.sub{max-width:76ch;margin:0;color:#e6f5f2;font-size:15px;line-height:1.55;text-wrap:pretty}
+.trip-meta{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.address-card,.meta-pill{display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:9px 13px;border:1px solid rgba(255,255,255,.32);border-radius:13px;color:#fff;background:rgba(255,255,255,.12);font-size:14px;font-weight:750;line-height:1.25;text-decoration:none;backdrop-filter:blur(8px)}
+.address-card{background:rgba(255,255,255,.19);transition:transform .16s ease,background .16s ease}
+.address-card:hover{color:#fff;background:rgba(255,255,255,.27);transform:translateY(-1px)}
+.meta-pill[href]:hover{color:#fff;background:rgba(255,255,255,.22);transform:translateY(-1px)}
+.address-card:focus-visible{outline:3px solid rgba(244,184,96,.75);outline-offset:2px}
+.address-icon{display:grid;width:27px;height:27px;place-items:center;border-radius:9px;color:var(--lake-dark);background:#fff;font-size:15px}
+.hero .warn{position:relative;z-index:1;margin:24px 0 0;color:#193740;background:rgba(255,255,255,.92);border-color:rgba(255,255,255,.85);box-shadow:none}
+.tabs{position:sticky;top:0;z-index:10;display:flex;flex-wrap:wrap;gap:8px;margin:20px 0;padding:10px;border:1px solid rgba(208,224,221,.9);border-radius:18px;background:rgba(248,251,250,.9);box-shadow:0 10px 28px rgba(31,78,83,.08);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.tabs button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:42px;border:1px solid var(--line);border-radius:12px;padding:9px 13px;color:#31525a;background:rgba(255,255,255,.88);font:inherit;font-size:13px;font-weight:700;line-height:1.2;text-align:center;cursor:pointer;transition:transform .16s ease,border-color .16s ease,background .16s ease,color .16s ease,box-shadow .16s ease}
+.tabs button:hover{border-color:#7bb0ac;background:#fff;transform:translateY(-1px)}
+.tabs button:focus-visible{outline:3px solid rgba(244,184,96,.55);outline-offset:2px}
+.tabs button.active{color:#fff;border-color:var(--lake-dark);background:var(--lake-dark);box-shadow:0 7px 16px rgba(22,78,99,.22)}
+.tab-icon{font-size:16px;line-height:1}
+.panel{position:relative;display:none;overflow:hidden;padding:clamp(22px,4vw,40px);border:1px solid rgba(211,226,223,.95);border-radius:24px;background:rgba(255,255,255,.96);box-shadow:var(--shadow)}
+.panel::after{content:attr(data-icon);position:absolute;top:18px;right:24px;width:48px;height:48px;border-radius:15px;background:var(--mist);font-size:24px;line-height:48px;text-align:center}
+.panel.active{display:block;animation:panel-in .22s ease-out}
+@keyframes panel-in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+h2{max-width:calc(100% - 70px);margin:0 0 20px;color:#173f49;font-size:clamp(24px,4vw,34px);line-height:1.18;letter-spacing:-.025em;text-wrap:balance}
+h3{margin:26px 0 8px;color:#22525c;font-size:17px;line-height:1.3}
+p{max-width:78ch;text-wrap:pretty}
+ul{max-width:82ch;margin:10px 0;padding-left:1.35rem}
+li{margin:.5rem 0;padding-left:.18rem}
+li::marker{color:var(--pine)}
+table{display:table;width:100%;margin:16px 0;border-collapse:separate;border-spacing:0;overflow:hidden;border:1px solid var(--line);border-radius:15px;background:#fff}
+th,td{padding:12px 14px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);font-size:14px;line-height:1.5;text-align:left;vertical-align:top;text-wrap:pretty}
+th:last-child,td:last-child{border-right:0}
+tr:last-child td{border-bottom:0}
+th{color:#31545d;background:#edf5f3;font-size:12px;font-weight:800;letter-spacing:.055em;text-transform:uppercase}
+tbody tr:nth-child(even) td{background:#fbfdfc}
+.current-party td{background:#eaf6f3!important}
+.price-note{display:inline-block;margin-left:7px;padding:2px 7px;border-radius:999px;color:#fff;background:var(--pine);font-size:11px;font-weight:800;letter-spacing:.03em;text-transform:uppercase}
+.badge{display:inline-block;margin-right:7px;padding:3px 9px;border-radius:999px;color:#18584b;background:#e1f1eb;font-size:12px;font-weight:800;vertical-align:1px}
+.warn{margin:18px 0;padding:14px 16px;border:1px solid #efcf8d;border-left:5px solid var(--sun);border-radius:14px;color:#624817;background:#fff8e8}
+a{color:#096c7b;text-decoration-thickness:1.5px;text-underline-offset:2px}
+a:hover{color:#064f59}
+.small{max-width:82ch;color:var(--muted);font-size:13px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.grid2>div{padding:4px 18px 12px;border:1px solid var(--line);border-radius:16px;background:#fbfdfc}
+.timeline{position:relative;display:grid;grid-template-columns:repeat(7,minmax(120px,1fr));gap:10px;margin:18px 0 28px;padding:0;list-style:none}
+.timeline::before{content:"";position:absolute;top:21px;right:6%;left:6%;height:2px;background:#c7ddda}
+.timeline li{position:relative;margin:0;padding:0}
+.timeline-card{position:relative;width:100%;height:100%;min-height:145px;padding:44px 12px 13px;border:1px solid var(--line);border-radius:16px;color:var(--ink);background:#fbfdfc;font:inherit;text-align:left;cursor:pointer;transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}
+.timeline-card::before{content:"";position:absolute;top:15px;left:15px;width:13px;height:13px;border:4px solid #fff;border-radius:50%;background:var(--lake);box-shadow:0 0 0 2px #94c3bd}
+.timeline-card:hover{border-color:#8dbab5;box-shadow:0 8px 20px rgba(30,85,88,.1);transform:translateY(-2px)}
+.timeline-card:focus-visible{outline:3px solid rgba(244,184,96,.55);outline-offset:2px}
+.timeline-date{display:block;margin-bottom:5px;color:var(--lake);font-size:11px;font-weight:850;letter-spacing:.08em;text-transform:uppercase}
+.timeline-title{display:block;font-size:14px;font-weight:800;line-height:1.25}
+.timeline-note{display:block;margin-top:5px;color:var(--muted);font-size:12px;line-height:1.35}
+.checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:14px 0 24px;padding:0;list-style:none}
+.checklist li{position:relative;margin:0;padding:12px 14px 12px 43px;border:1px solid var(--line);border-radius:13px;background:#fbfdfc}
+.checklist li::before{content:"✓";position:absolute;top:12px;left:13px;display:grid;width:20px;height:20px;place-items:center;border-radius:7px;color:#fff;background:var(--pine);font-size:12px;font-weight:900}
+.packing-checklist{max-width:none;margin:10px 0;padding:0;list-style:none}
+.packing-checklist li{margin:7px 0;padding:0}
+.packing-checklist label{display:flex;gap:10px;align-items:flex-start;padding:9px 10px;border:1px solid var(--line);border-radius:11px;background:#fff;cursor:pointer;transition:border-color .15s ease,background .15s ease}
+.packing-checklist label:hover{border-color:#8dbab5;background:#f5faf8}
+.packing-checklist input{flex:0 0 auto;width:19px;height:19px;margin:2px 0 0;accent-color:var(--pine);cursor:pointer}
+.packing-checklist input:checked+span{color:#829399;text-decoration:line-through;text-decoration-thickness:2px}
+.photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:18px 0}
+.photo-card{overflow:hidden;margin:0;border:1px solid var(--line);border-radius:16px;background:#fbfdfc;box-shadow:0 8px 20px rgba(30,85,88,.08)}
+.photo-card a{display:block;overflow:hidden;background:#dcebe8}
+.photo-card img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .22s ease}
+.photo-card a:hover img{transform:scale(1.025)}
+.photo-card figcaption{padding:11px 13px;color:var(--muted);font-size:12px;line-height:1.45}
+.photo-card figcaption b{display:block;margin-bottom:2px;color:var(--ink);font-size:13px}
+.amenity-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0}
+.amenity{padding:14px;border:1px solid var(--line);border-radius:14px;background:#fbfdfc;text-align:center;font-size:14px;font-weight:800}
+.amenity span{display:block;margin-bottom:4px;font-size:23px;line-height:1}
+@media(max-width:980px){.timeline{grid-template-columns:repeat(4,minmax(130px,1fr))}.timeline::before{display:none}.timeline-card{min-height:126px;padding-top:38px}}
+@media(max-width:760px){.page-shell{width:min(100% - 20px,1120px);padding:14px 0 32px}.hero{border-radius:20px}.tabs{top:6px;flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;border-radius:15px;scrollbar-width:thin}.tabs button{flex:0 0 auto}.panel{padding:22px 17px;border-radius:19px}.panel::after{top:14px;right:15px;width:42px;height:42px;line-height:42px}h2{max-width:calc(100% - 56px)}.grid2,.checklist,.photo-grid{grid-template-columns:1fr}.amenity-strip{grid-template-columns:repeat(2,minmax(0,1fr))}table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:150px}.hero .warn{padding:12px 13px}.photo-card img{aspect-ratio:16/10}}
+@media(max-width:560px){.timeline{grid-template-columns:repeat(2,minmax(0,1fr))}.timeline-card{min-height:118px}.address-card{width:100%}.meta-pill{flex:1 1 auto}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="page-shell">
+<header class="hero">
+<div class="hero-copy">
+<p class="eyebrow">South Lake Tahoe · Seven-day family trip</p>
+<h1>Tahoe Trip</h1>
+<div class="sub">Sept 26–Oct 2, 2026<br>Travelers: You, Amy, Xander, Felix, Dennis, and Jesse (optional)</div>
+</div>
+<div class="trip-meta">
+<a class="address-card" href="https://www.google.com/maps/search/?api=1&amp;query=2028+Garmish+Ct%2C+South+Lake+Tahoe%2C+CA+96150" aria-label="Open 2028 Garmish Court in Google Maps"><span class="address-icon" aria-hidden="true">⌖</span><span>2028 Garmish Ct<br>South Lake Tahoe, CA 96150</span></a>
+<a class="meta-pill" href="https://www.vrbo.com/9351196ha?dateless=true">🏡 View VRBO listing ↗</a><span class="meta-pill">🚙 Two cars</span>
+</div>
+<div class="warn"><b>Arrival-day plan · Sat Sept 26:</b> Your car is You + Amy + Jesse + Xander and will stop at the family graves for the death anniversary on the drive to Tahoe. Dennis + Felix travel in the other car. During the stay, use the cars flexibly when nap or walking limits diverge.</div>
+</header>
+<div class="tabs" id="tabbar"></div>
+
+<div class="panel" data-title="Overview" data-icon="🗺️">
+<h2>Trip at a Glance</h2>
+<ol class="timeline" aria-label="Seven-day trip timeline">
+<li><button class="timeline-card" type="button" data-go-panel="1"><span class="timeline-date">Sat · Sep 26</span><span class="timeline-title">Graves &amp; arrival</span><span class="timeline-note">Two-car drive, visit, groceries, settle in</span></button></li>
+<li><button class="timeline-card" type="button" data-go-panel="2"><span class="timeline-date">Sun · Sep 27</span><span class="timeline-title">Heavenly Gondola</span><span class="timeline-note">Views, village, relaxed afternoon</span></button></li>
+<li><button class="timeline-card" type="button" data-go-panel="3"><span class="timeline-date">Mon · Sep 28</span><span class="timeline-title">Fishing day</span><span class="timeline-note">Charter for four; Taylor Creek for two</span></button></li>
+<li><button class="timeline-card" type="button" data-go-panel="4"><span class="timeline-date">Tue · Sep 29</span><span class="timeline-title">Emerald Bay cruise</span><span class="timeline-note">Early lunch, noon M.S. Dixie II</span></button></li>
+<li><button class="timeline-card" type="button" data-go-panel="5"><span class="timeline-date">Wed · Sep 30</span><span class="timeline-title">East Shore</span><span class="timeline-note">Sand Harbor and sunset</span></button></li>
+<li><button class="timeline-card" type="button" data-go-panel="6"><span class="timeline-date">Thu · Oct 1</span><span class="timeline-title">Flex day</span><span class="timeline-note">Repeat a favorite; farewell dinner</span></button></li>
+<li><button class="timeline-card" type="button" data-go-panel="7"><span class="timeline-date">Fri · Oct 2</span><span class="timeline-title">Pack &amp; depart</span><span class="timeline-note">Checkout checklist and drive home</span></button></li>
+</ol>
+<h3>Car plan</h3>
+<table><tr><th>Arrival drive — Sat 9/26</th><th>During the stay</th></tr>
+<tr><td><b>Your car:</b> You + Amy + Jesse + Xander; stop at the family graves before continuing to Tahoe.<br><b>Other car:</b> Dennis + Felix; coordinate where and when to regroup.</td><td>Keep the car seat, stroller, and Xander bag together. Choose the easier-entry car for Felix; use the second car for active outings, grocery runs, and the early charter.</td></tr></table>
+<h3>At the VRBO</h3>
+<div class="amenity-strip" aria-label="Activities available at the VRBO">
+<div class="amenity"><span aria-hidden="true">🎾</span>Tennis courts</div>
+<div class="amenity"><span aria-hidden="true">🛝</span>Playground</div>
+<div class="amenity"><span aria-hidden="true">♨️</span>Hot tub</div>
+<div class="amenity"><span aria-hidden="true">⚓</span>Private dock</div>
+</div>
+<p class="small">Good low-effort options around naps or on the flex day. Bring tennis gear if anyone plans to play, supervise Xander closely near the dock and hot tub, and follow posted community rules.</p>
+</div>
+
+<div class="panel" data-title="Sat 9/26 Arrival" data-icon="🧳">
+<h2>Sat Sept 26 — Graveside Visit &amp; Arrival</h2>
+<table><tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
+<tr><td>Before Tahoe</td><td>Your car (You + Amy + Jesse + Xander) stops at the family graves for the death anniversary</td><td>Confirm cemetery route, flowers, and visit time; plan Xander's car nap around the stop</td></tr>
+<tr><td>Drive</td><td>Dennis + Felix travel in the other car</td><td>Share ETA and decide whether to regroup before check-in or at the VRBO</td></tr>
+<tr><td>Early PM</td><td>Regroup at 2028 Garmish Ct, unpack, Xander nap 1–3pm</td><td>Share live ETAs between cars; photo driveway/parking</td></tr>
+<tr><td>3:30pm</td><td>Grocery run (Car B: You + Dennis) — Raley's / Safeway South Lake</td><td>Stock milk, snacks, diapers, breakfasts, dinners</td></tr>
+<tr><td>4:30pm</td><td>Easy outing (Car A): Tahoe Keys beach / Kiva Beach — paved, &lt;0.5 mi</td><td>Felix stays in car or chair at viewpoint if tired</td></tr>
+<tr><td>6pm</td><td>Home-cooked dinner, early bed</td><td>Acclimate to altitude; no alcohol pressure for Felix</td></tr></table>
+<p class="small">Book: nothing today. Confirm charter + Dixie II times tonight.</p>
+</div>
+
+<div class="panel" data-title="Sun 9/27 Gondola" data-icon="🚠">
+<h2>Sun Sept 27 — Heavenly Gondola + Easy Afternoon</h2>
+<table><tr><th>Time</th><th>Plan</th><th>Mobility</th></tr>
+<tr><td>9am</td><td>Heavenly Gondola (Heavenly Village, ~10 min from house). Ride up, observation deck, coffee.</td><td>Minimal walking; confirm accessibility and fall operating hours</td></tr>
+<tr><td>12pm</td><td>Picnic or casual lunch near Heavenly Village</td><td>Keep the afternoon light before Xander's nap</td></tr>
+<tr><td>1–3pm</td><td>Xander nap at house; optional shops or very short Van Sickle outing</td><td>Split cars if helpful</td></tr>
+<tr><td>4pm</td><td>Tahoe Keys / Kiva Beach or playground time</td><td>Benches/chair for Felix; easy turnaround</td></tr>
+<tr><td>6pm</td><td>Sheet-pan chicken, potatoes, and vegetables at the VRBO</td><td>Early dinner for Xander</td></tr></table>
+<p class="small">Sunday is now the gondola day so the cruise can move off the busier weekend. Confirm the gondola's late-September schedule before booking.</p>
+</div>
+
+<div class="panel" data-title="Mon 9/28 Fishing" data-icon="🎣">
+<h2>Mon Sept 28 — Fishing Charter Day</h2>
+<ul>
+<li><b>Early morning fishing car:</b> You + Dennis + Jesse + Felix. Allow roughly 5 hours; the exact check-in time and marina depend on the selected charter. Request easy boarding, nearby parking, secure seating, weather protection, and a bathroom for Felix.</li>
+<li><b>9am–12pm family car:</b> Amy + Xander — Taylor Creek Rainbow Trail (paved 0.5-mi loop, salmon viewing in fall if running) + visitor center.</li>
+<li><b>Afternoon:</b> All regroup at house for Xander nap. Backyard / Keys lagoon walk (&lt;1 mi).</li>
+<li><b>Dinner:</b> Fish tacos if there is suitable catch; chicken/bean tacos as the no-catch backup.</li>
+</ul>
+<div class="warn"><b>Current shortlist:</b> call Tahoe Topliners first for its $1,100 private 5-hour trip, with Mile High as the closest-to-the-house/currently bookable backup. Tahoe Sport Fishing has the lowest published shared-boat total at $975.20. See the Fishing tab for review signals, details, and caveats.</div>
+</div>
+
+<div class="panel" data-title="Tue 9/29 Bay+Cruise" data-icon="🚢">
+<h2>Tue Sept 29 — Emerald Bay + M.S. Dixie II</h2>
+<table><tr><th>Time</th><th>Plan</th><th>Mobility</th></tr>
+<tr><td>Morning</td><td>Easy morning at the VRBO or a short nearby beach/playground visit</td><td>Keep the morning low-key before the cruise</td></tr>
+<tr><td>10:30am</td><td>Early lunch; pack Xander's snacks and nap comfort items</td><td>Avoid relying on a full onboard lunch</td></tr>
+<tr><td>11:30am</td><td>Check in at Zephyr Cove for boarding</td><td>Official guidance requires check-in 30 minutes before departure</td></tr>
+<tr><td>12–2:15pm</td><td>M.S. Dixie II daytime scenic cruise to Emerald Bay</td><td>2.25 hours; indoor seating and accessible restroom; no elevator to second deck</td></tr>
+<tr><td>2:30–4pm</td><td>Return to the VRBO for nap / quiet time</td><td>Xander may also nap on the boat or drive back</td></tr>
+<tr><td>6pm</td><td>Pasta, salad, and garlic bread at the VRBO</td><td>Early dinner for Xander</td></tr></table>
+<div class="warn"><b>Cruise choice: 12pm daytime scenic cruise.</b> It fits this group better than the 6pm dinner cruise: Xander avoids a late evening, Felix has daylight and indoor seating, and dinner remains flexible at the house. The 6pm option adds dinner and live music but uses community tables and runs into Xander's normal dinner/bedtime.</div>
+<p class="small">Moved from Sunday to Tuesday to avoid weekend demand. The daytime cruise is advertised as appropriate for all ages; food and beverages are available for purchase onboard. The inspected vessel carries required life jackets; passengers are not ordinarily asked to wear one for the whole cruise. Bring Xander's well-fitting toddler PFD anyway and follow the crew's instructions.</p>
+</div>
+
+<div class="panel" data-title="Wed 9/30 East Shore" data-icon="🏖️">
+<h2>Wed Sept 30 — East Shore Drive (Sand Harbor)</h2>
+<ul>
+<li><b>8:30am:</b> Both cars to Sand Harbor State Park (needs day-use reservation mid-Apr–mid-Oct — book ahead). Boardwalk, shallow water, shade. Go early — parking fills.</li>
+<li><b>Midday:</b> Bonsai Rock pull-off (short walk; Felix stays at overlook, others go down).</li>
+<li><b>Afternoon:</b> Return for nap. Low-key: library, community pool / hot tub if access is confirmed, or a shore-fishing demo for Xander at Keys lagoon.</li>
+<li><b>Sunset:</b> Nevada Beach / Edgewood sunset viewpoint (drive-up).</li>
+</ul>
+<h3>Sand Harbor preview</h3>
+<div class="photo-grid" aria-label="Photographs of Sand Harbor">
+<figure class="photo-card"><a href="https://commons.wikimedia.org/wiki/File:Sand_Harbor,_Lake_Tahoe,_Nevada,_20220514,_01.jpg"><img src="assets/tahoe-east-shore/sand-harbor-shoreline.jpg" alt="Clear shallow water and sandy shoreline at Sand Harbor with Lake Tahoe mountains beyond" loading="lazy"></a><figcaption><b>Shallow shoreline</b>Clear water and a gradual sandy edge. Photo: Blake Everett Carroll, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</figcaption></figure>
+<figure class="photo-card"><a href="https://commons.wikimedia.org/wiki/File:Sand_Harbor,_Lake_Tahoe,_Nevada,_20220514,_06.jpg"><img src="assets/tahoe-east-shore/sand-harbor-boulders.jpg" alt="Rounded granite boulders in the clear water along Sand Harbor at Lake Tahoe" loading="lazy"></a><figcaption><b>Granite shoreline</b>The boulder-and-water scenery that defines Tahoe's East Shore. Photo: Blake Everett Carroll, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</figcaption></figure>
+<figure class="photo-card"><a href="https://commons.wikimedia.org/wiki/File:Sand_Harbor,_Lake_Tahoe,_Nevada,_20220515,_19.jpg"><img src="assets/tahoe-east-shore/sand-harbor-cove.jpg" alt="Sandy cove, pine trees, and a wooden walkway at Sand Harbor" loading="lazy"></a><figcaption><b>Beach and walkway</b>A useful sense of the sand, shade, and developed path near the shore. Photo: Blake Everett Carroll, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</figcaption></figure>
+</div>
+<p class="small">These photos were taken in May 2022; late-September water level, snow cover, foliage, and crowds may look different. Select any photo to open its original Wikimedia Commons page.</p>
+</div>
+
+<div class="panel" data-title="Thu 10/1 Flex" data-icon="🌲">
+<h2>Thu Oct 1 — Flex / Low-key Day</h2>
+<ul>
+<li>Buffer day: repeat favorite (gondola, beach, Taylor Creek) or rest.</li>
+<li><b>Stay-at-home option:</b> tennis courts, playground, hot tub, and time by the private dock.</li>
+<li>Option: drive to Emerald Bay Lookout (Hwy 89). The paved overlook is roughly 100 yards from the lot.</li>
+<li>Option: Tallac Historic Site (paved, short, benches) — good Felix outing; Xander likes ducks/lawn.</li>
+<li>Shore fishing rental for Dennis/You while Xander naps.</li>
+<li><b>Farewell dinner reservation</b> — pick easy-parking South Lake spot (see Bookings tab).</li>
+</ul>
+<p class="small">Note: some USFS facilities (e.g. Round Hill Pines) close Oct 1 — have backup beach (Nevada Beach, Kiva).</p>
+</div>
+
+<div class="panel" data-title="Fri 10/2 Depart" data-icon="🚗">
+<h2>Fri Oct 2 — Departure</h2>
+<h3>Host checkout checklist</h3>
+<ul class="checklist">
+<li>Load and start the dishwasher.</li>
+<li>Remove personal items and leftover food and drinks; take out the trash.</li>
+<li>Turn off the lights and lock the doors.</li>
+<li>Close and secure all windows, lower the shades, and set the heat to 55°F if winter conditions apply.</li>
+<li>Clean and cover the BBQ if it was used.</li>
+</ul>
+<h3>Drive home</h3>
+<ul>
+<li>Check out, coordinate both cars' routes and lunch stop, and share estimated arrival times.</li>
+<li>Plan Xander's nap for the drive and split driving shifts as needed.</li>
+</ul>
+</div>
+
+<div class="panel" data-title="Fishing" data-icon="🎣">
+<h2>Fishing Guide &amp; Price Comparison</h2>
+<p>Lake Tahoe is open to fishing year-round. Late September is the cooling-water fall transition: trout become more active, while kokanee begin concentrating for their spawning migration.</p>
+
+<h3>What is catchable in late September?</h3>
+<table><tr><th>Species</th><th>Late-September outlook</th><th>How it is targeted</th></tr>
+<tr><td><b>Lake trout (Mackinaw)</b></td><td><b>Most reliable charter target.</b> NDOW says lake trout make up roughly 50–90% of Lake Tahoe angler catch.</td><td>Deep trolling or jigging from a boat</td></tr>
+<tr><td><b>Kokanee salmon</b></td><td><b>Catchable, but timing-dependent.</b> Kokanee make up about 25% of catch. Late September is near their fall staging/spawn transition, when schools may gather near tributary mouths.</td><td>Slow trolling with downriggers, small spinners, or hoochies; ask the captain in advance</td></tr>
+<tr><td><b>Rainbow trout</b></td><td><b>Realistic secondary target.</b> Rainbows make up about 16% of catch and stocked fish are also available from public-access shore areas.</td><td>Top-line trolling; lures, bait, or flies near drop-offs</td></tr>
+<tr><td><b>Brown trout</b></td><td><b>Possible but uncommon.</b> Wild browns make up less than 3% of catch, though trophy fish are present.</td><td>Trolling or working shallow-to-moderate drop-offs</td></tr>
+<tr><td><b>Lahontan cutthroat</b></td><td><b>Possible bonus fish.</b> NDOW says 100,000 are slated for stocking in 2026 and recent stocking commonly occurs in June, July, and September, but they are not the primary charter target.</td><td>Public-access areas or opportunistically from the boat</td></tr></table>
+
+<h3>Best currently operating charter options</h3>
+<p class="small">Shortlist checked Sept 15, 2026. These operators have an active first-party site or 2026 booking page, published pricing, and a substantial review trail. Review platforms count and score reviews differently, so the ratings are a confidence signal—not a perfect head-to-head ranking. Prices can change and may exclude tax, booking fees, or gratuity.</p>
+<table><tr><th>Operator</th><th>Review signal</th><th>Trip / departure</th><th>Shared for 4</th><th>Private for 4</th><th>Why it made the cut</th></tr>
+<tr class="current-party"><td><b><a href="https://tahoetopliners.com/">Tahoe Topliners</a></b><br><span class="price-note">Best overall fit</span></td><td><a href="https://fishingbooker.com/charters/view/35546">5.0/5 · 84 FishingBooker reviews</a></td><td>5 hours; South Lake Tahoe meeting point—confirm exact dock</td><td><b>$1,100</b><br>$275 each</td><td><b>$1,100</b><br>$275 each</td><td>The private boat costs the same as four shared seats. The current listing shows a toilet, tackle, drinks, and catch cleaning; Captain Mike has operated since 1996.</td></tr>
+<tr><td><b><a href="https://fishtahoe.com/">Mile High Fishing Charters</a></b><br><span class="badge">Closest</span></td><td><a href="https://reviews.birdeye.com/mile-high-fishing-charters-175211151318079">4.9/5 · 136 Birdeye reviews</a></td><td>4.5+ hours; Tahoe Keys Marina, very close to the VRBO</td><td><b>$1,000</b><br>$250 each</td><td><b>$1,250</b><br>$312.50 each</td><td>Best convenience and the booking page showed availability. Confirm the exact four-person private price and whether the assigned boat has the accessibility features Felix needs.</td></tr>
+<tr><td><b><a href="https://tahoesportfishing.com/fishing-charters/">Tahoe Sport Fishing</a></b><br><span class="badge">Best shared price</span></td><td><a href="http://wanderlog.com/place/details/485050">4.9/5 · 1,600+ Google reviews aggregated by Wanderlog</a></td><td>4–5 hours; Ski Run Marina</td><td><b>$975.20</b><br>$243.80 each</td><td><b>$1,462.80</b><br>up to 6</td><td>Largest review footprint and lowest four-seat shared total. Bait, tackle, rods, coffee, and catch cleaning are listed; confirm restroom and boarding details.</td></tr></table>
+<div class="warn"><b>Recommendation for this group:</b> try Tahoe Topliners first. Its published four-person private price is only $100 more than Mile High's shared boat and gives the group control over pace and an early return for Felix. Confirm the exact dock, boarding steps, enclosed/heated space, and toilet before paying. If those details do not work, Mile High is the simplest backup because it leaves from Tahoe Keys near the house. Choose Tahoe Sport Fishing if the goal is the lowest shared-boat fare and the broadest review history.</div>
+
+<h3>Mile High party-size detail</h3>
+<p class="small">The current <a href="https://fishtahoe.com/bookings/">Mile High booking screen</a> supplied for this plan shows public seats at $250 per person and private pricing of $1,000 for 1–3, $1,250 for 4, $1,350 for 5, or $1,500 for 6. Its separate rate page has shown $1,200 for four, so treat the booking checkout total as authoritative and confirm before paying.</p>
+<table><tr><th>Anglers</th><th>Public total</th><th>Private total</th><th>Private per person</th><th>Private premium</th></tr>
+<tr><td>1</td><td>$250</td><td>$1,000</td><td>$1,000.00</td><td>+$750</td></tr>
+<tr><td>2</td><td>$500</td><td>$1,000</td><td>$500.00</td><td>+$500</td></tr>
+<tr><td>3</td><td>$750</td><td>$1,000</td><td>$333.33</td><td>+$250</td></tr>
+<tr class="current-party"><td><b>4</b> <span class="price-note">Your group</span></td><td><b>$1,000</b><br>$250 each</td><td><b>$1,250</b></td><td><b>$312.50</b></td><td><b>+$250 total</b><br>+$62.50 each</td></tr>
+<tr><td>5</td><td>$1,250</td><td>$1,350</td><td>$270.00</td><td>+$100</td></tr>
+<tr><td>6</td><td>$1,500</td><td>$1,500</td><td>$250.00</td><td>$0</td></tr></table>
+<p class="small">This party-size table is for Mile High only. Public saves $250 versus its four-person private price, but the cross-operator comparison above shows that Tahoe Topliners currently offers a lower private price.</p>
+
+<h3>License cost</h3>
+<p>Each angler age 16+ needs a license. A 2026 California one-day license is $21.09, so add <b>$84.36</b> to any four-person quote: Tahoe Sport shared about <b>$1,059.56</b>, Mile High shared <b>$1,084.36</b>, Tahoe Topliners shared or private <b>$1,184.36</b>, Mile High private <b>$1,334.36</b>, or Tahoe Sport private <b>$1,547.16</b>, before gratuity, tax, and booking fees. NDOW's 2026 guide says a California fishing license is valid anywhere on Lake Tahoe. A California annual license lasts 365 days from purchase, so do not buy it early merely to secure one.</p>
+
+<h3>What to ask the captain</h3>
+<ul>
+<li>Say that the group is interested in both mackinaw and kokanee, then call a few days beforehand and let the current bite determine the target.</li>
+<li>For Felix, request easy boarding, nearby parking, a heated cabin, secure seating, and a bathroom.</li>
+<li>Confirm what the fare includes, gratuity expectations, cancellation terms, fish cleaning, and which license the operator wants each angler to carry.</li>
+</ul>
+<p class="small">Fishing sources: <a href="https://www.ndow.org/wp-content/uploads/2026/04/Lake-Tahoe-Angler-Information-Guide_2026_FINAL1.pdf">NDOW Lake Tahoe 2026 Fishing Forecast</a> · <a href="https://wildlife.ca.gov/Fishing/Inland/Kokanee">CDFW Kokanee guidance</a> · <a href="https://fishtahoe.com/lake-tahoe-fishing-seasons/">Mile High seasonal guide</a>. Charter prices and amenities: the three operator/booking links in the comparison above.</p>
+</div>
+
+<div class="panel" data-title="Meals" data-icon="🍳">
+<h2>VRBO Meal Plan</h2>
+<p>Planning most breakfasts and dinners at the house will make naps easier, use the kitchen, and reduce restaurant waits. Keep lunches packable for outing days.</p>
+<table><tr><th>Day</th><th>Breakfast</th><th>Lunch</th><th>Dinner</th></tr>
+<tr><td>Sat 9/26</td><td>Before / on the road</td><td>On the road</td><td>Easy arrival-night taco bowls or rotisserie chicken</td></tr>
+<tr><td>Sun 9/27</td><td>Eggs, toast, and fruit</td><td>Picnic sandwiches near Heavenly</td><td>Sheet-pan chicken, potatoes, and vegetables</td></tr>
+<tr><td>Mon 9/28</td><td>Grab-and-go bagels, bananas, and coffee for fishing crew</td><td>Sandwiches and leftovers</td><td>Fish tacos if there is suitable catch; chicken/bean taco backup</td></tr>
+<tr><td>Tue 9/29</td><td>Oatmeal, yogurt, and berries</td><td>Early lunch before the noon cruise</td><td>Pasta, salad, and garlic bread</td></tr>
+<tr><td>Wed 9/30</td><td>Pancakes and fruit</td><td>Sand Harbor picnic</td><td>Slow-cooker chili, cornbread, and toppings</td></tr>
+<tr><td>Thu 10/1</td><td>Eggs / oatmeal / leftover breakfast</td><td>Leftovers or deli lunch</td><td>Farewell dinner out</td></tr>
+<tr><td>Fri 10/2</td><td>Clean-out-the-fridge breakfast</td><td>Road lunch; pack snacks for both cars</td><td>After arrival home</td></tr></table>
+<h3>First grocery run</h3>
+<ul>
+<li><b>Breakfast:</b> eggs, bread, oatmeal, yogurt, berries, bananas, pancake mix, coffee, milk.</li>
+<li><b>Lunch/snacks:</b> sandwich bread/wraps, deli fillings, fruit, cut vegetables, hummus, crackers, pouches, and Xander's usual snacks.</li>
+<li><b>Dinners:</b> rotisserie chicken or taco ingredients, chicken, potatoes, vegetables, pasta, sauce, salad kit, garlic bread, chili ingredients, cornbread, tortillas, and taco toppings.</li>
+<li><b>Drinks:</b> water/seltzer, coffee/tea, milk, and nonalcoholic drinks Felix likes.</li>
+</ul>
+<div class="warn"><b>Before shopping:</b> confirm allergies and dietary preferences. The listing confirms the major appliances, dishes, utensils, coffee maker, and toaster; check whether consumables such as oil, spices, coffee filters, foil, and storage bags are supplied. Keep one no-cook dinner backup.</div>
+</div>
+
+<div class="panel" data-title="Xander Packing" data-icon="🎒">
+<h2>Xander (2yo) — When to Pack</h2>
+<div class="warn"><b>No travel crib needed:</b> the VRBO provides a pack-and-play. Bring only a fitted sheet and Xander's usual sleep items.</div>
+<div class="grid2">
+<div><h3>🌙 Load the night before</h3><ul class="packing-checklist">
+<li><label><input type="checkbox"><span>5–7 daytime outfits</span></label></li>
+<li><label><input type="checkbox"><span>2 pajamas</span></label></li>
+<li><label><input type="checkbox"><span>Warm socks</span></label></li>
+<li><label><input type="checkbox"><span>Booties</span></label></li>
+<li><label><input type="checkbox"><span>Sneakers</span></label></li>
+<li><label><input type="checkbox"><span>Water shoes</span></label></li>
+<li><label><input type="checkbox"><span>Puffy jacket</span></label></li>
+<li><label><input type="checkbox"><span>Fleece</span></label></li>
+<li><label><input type="checkbox"><span>Rain shell</span></label></li>
+<li><label><input type="checkbox"><span>Warm hat</span></label></li>
+<li><label><input type="checkbox"><span>Sun hat</span></label></li>
+<li><label><input type="checkbox"><span>Gloves</span></label></li>
+<li><label><input type="checkbox"><span>Pack-and-play fitted sheet</span></label></li>
+<li><label><input type="checkbox"><span>Stroller</span></label></li>
+<li><label><input type="checkbox"><span>Dou Dou Carrier</span></label></li>
+<li><label><input type="checkbox"><span>40 regular diapers (about 5 per day plus extras)</span></label></li>
+<li><label><input type="checkbox"><span>4 swim diapers</span></label></li>
+<li><label><input type="checkbox"><span>2 packs of wipes</span></label></li>
+<li><label><input type="checkbox"><span>Changing table</span></label></li>
+<li><label><input type="checkbox"><span>Shelf-stable milk</span></label></li>
+<li><label><input type="checkbox"><span>Puffs</span></label></li>
+<li><label><input type="checkbox"><span>Melts</span></label></li>
+<li><label><input type="checkbox"><span>Tractor cookies</span></label></li>
+<li><label><input type="checkbox"><span>Juice</span></label></li>
+<li><label><input type="checkbox"><span>Apple oatmeal cookies</span></label></li>
+<li><label><input type="checkbox"><span>High-chair cover</span></label></li>
+<li><label><input type="checkbox"><span>Bibs</span></label></li>
+<li><label><input type="checkbox"><span>Beach toys</span></label></li>
+<li><label><input type="checkbox"><span>Bucket</span></label></li>
+<li><label><input type="checkbox"><span>Playground ball</span></label></li>
+<li><label><input type="checkbox"><span>Toddler PFD / life jacket</span></label></li>
+<li><label><input type="checkbox"><span>Buckle pillow</span></label></li>
+<li><label><input type="checkbox"><span>Controller toy</span></label></li>
+<li><label><input type="checkbox"><span>Busy board</span></label></li>
+<li><label><input type="checkbox"><span>Batz Maru</span></label></li>
+<li><label><input type="checkbox"><span>Spinny Wheel Toy</span></label></li>
+<li><label><input type="checkbox"><span>Children's Tylenol</span></label></li>
+<li><label><input type="checkbox"><span>Zyrtec</span></label></li>
+<li><label><input type="checkbox"><span>Oral syringe</span></label></li>
+<li><label><input type="checkbox"><span>Nasal saline spray</span></label></li>
+<li><label><input type="checkbox"><span>Nose sucker</span></label></li>
+<li><label><input type="checkbox"><span>Sunscreen</span></label></li>
+<li><label><input type="checkbox"><span>Hand sanitizer</span></label></li>
+</ul></div>
+<div><h3>☀️ Add the day of departure</h3><ul class="packing-checklist">
+<li><label><input type="checkbox"><span>Sleep sack</span></label></li>
+<li><label><input type="checkbox"><span>White-noise machine</span></label></li>
+<li><label><input type="checkbox"><span><i>Goodnight Moon</i></span></label></li>
+<li><label><input type="checkbox"><span><i>Blue Hat, Green Hat</i></span></label></li>
+<li><label><input type="checkbox"><span>Toothbrush and morning toiletries</span></label></li>
+<li><label><input type="checkbox"><span>4 road diapers</span></label></li>
+<li><label><input type="checkbox"><span>Road-pack wipes</span></label></li>
+<li><label><input type="checkbox"><span>Changing pad</span></label></li>
+<li><label><input type="checkbox"><span>Diaper disposal bags</span></label></li>
+<li><label><input type="checkbox"><span>One road change of clothes</span></label></li>
+<li><label><input type="checkbox"><span>Shelf-stable milk for the drive</span></label></li>
+<li><label><input type="checkbox"><span>Filled sippy cup</span></label></li>
+<li><label><input type="checkbox"><span>Juice for the drive</span></label></li>
+<li><label><input type="checkbox"><span>Puffs for the drive</span></label></li>
+<li><label><input type="checkbox"><span>Melts for the drive</span></label></li>
+<li><label><input type="checkbox"><span>Tractor cookies for the drive</span></label></li>
+<li><label><input type="checkbox"><span>Apple oatmeal cookies for the drive</span></label></li>
+<li><label><input type="checkbox"><span>Fleece or jacket kept within reach</span></label></li>
+<li><label><input type="checkbox"><span>Sun hat kept within reach</span></label></li>
+<li><label><input type="checkbox"><span>Sunglasses</span></label></li>
+</ul></div>
+</div>
+<p class="small"><b>Packing strategy:</b> place the departure-morning items together in one visible basket the night before. Keep the road diaper kit and food bag in the passenger compartment rather than buried in the trunk. Checkmarks last only until the page is refreshed or closed.</p>
+</div>
+
+<div class="panel" data-title="Everyone Packing" data-icon="🧥">
+<h2>Everyone — What to Bring</h2>
+<table><tr><th>Person</th><th>Bring</th></tr>
+<tr><td>You (34) + Amy (34)</td><td>Layers (fleece, puffy, windbreaker), hiking shoes + camp shoes, swimsuit + towel, headlamp, cooler, medications, camera</td></tr>
+<tr><td>Felix (74)</td><td>Cane / trekking poles, folding camp chair + cushion, warm layers + blanket for boat, medications + list, easy-slip shoes, sunglasses, earplugs, books, polarized sunglasses, and fishing license if fishing. No alcohol — bring NA drinks he likes.</td></tr>
+<tr><td>Dennis (38) + Jesse (~55)</td><td>Fishing license (CA 1-day or 365-day, buy online shortly before trip), layers, polarized sunglasses, daypack, water shoes</td></tr>
+<tr><td>Shared (house)</td><td>Groceries plan, paper towels, trash bags (bear bins), laundry pods, nightlights, power strip, paper maps (spotty signal), windshield scraper, tire check, board games, first-aid + altitude meds</td></tr></table>
+</div>
+
+<div class="panel" data-title="Bookings" data-icon="🎟️">
+<h2>What to Book — Links &amp; Day Mapping</h2>
+<table><tr><th>Book</th><th>For Day</th><th>Link / Search</th><th>Lead time</th></tr>
+<tr><td>M.S. Dixie II daytime scenic cruise (Zephyr Cove → Emerald Bay)</td><td>Tue 9/29, 12pm</td><td><a href="https://www.zephyrcove.com/lake-tahoe-cruises/daytime-scenic-cruises">Cruise details</a> • <a href="https://www.zephyrcove.com/lake-tahoe-cruises/cruise-schedule/">official schedule</a></td><td>Book now; arrive by 11:30am. Weekday is preferable, but availability is not guaranteed.</td></tr>
+<tr><td>Fishing charter — selected operator</td><td>Mon 9/28 AM</td><td><a href="https://tahoetopliners.com/">Tahoe Topliners</a> • <a href="https://fishtahoe.com/bookings/">Mile High booking</a> • <a href="https://tahoesportfishing.com/fishing-charters/">Tahoe Sport Fishing</a></td><td>Call Topliners first for the $1,100 private trip; confirm its exact dock and Felix's boarding, seating, shelter, and restroom needs. Keep Mile High as the closest backup.</td></tr>
+<tr><td>CA fishing licenses (1-day or 365-day)</td><td>Mon 9/28</td><td><a href="https://wildlife.ca.gov/Licensing/Fishing">CDFW license details</a> • <a href="https://www.wildlife.ca.gov/Licensing/Online-Sales">online sales</a></td><td>Buy shortly before fishing. The annual license starts on purchase and lasts 365 days—do not buy early merely to secure one.</td></tr>
+<tr><td>Heavenly Gondola</td><td>Sun 9/27 AM</td><td><a href="https://www.skiheavenly.com/">skiheavenly.com</a> — confirm fall ops</td><td>1 wk / day-of</td></tr>
+<tr><td>Sand Harbor day-use reservation</td><td>Wed 9/30 AM</td><td><a href="https://www.parks.nv.gov/parks/sand-harbor">NV State Parks — Sand Harbor</a> (reservations required mid-Apr–mid-Oct)</td><td>ASAP — releases in tiers, weekends fill</td></tr>
+<tr><td>Farewell dinner reservation</td><td>Thu 10/1</td><td>Pick South Lake easy-parking spot (Edgewood / Heavenly Village)</td><td>1–2 wks</td></tr></table>
+<div class="warn"><b>Seasonality watch:</b> This is fall trout and kokanee season, though Lake Tahoe fishing is open year-round. Mackinaw is the most reliable target; ask the captain about the kokanee bite shortly before the trip. Dixie II + Gondola can run reduced schedules after mid-Sept — verify the exact dates before booking. USFS sites may close around Oct 1; keep Kiva/Nevada Beach as backups.</div>
+</div>
+
+</main>
+
+<script>
+const bar=document.getElementById('tabbar');
+const panels=[...document.querySelectorAll('.panel')];
+const activatePanel=(index,scroll=true)=>{
+  panels.forEach(q=>q.classList.remove('active'));
+  [...bar.children].forEach(x=>x.classList.remove('active'));
+  panels[index].classList.add('active');
+  bar.children[index].classList.add('active');
+  if(scroll)bar.scrollIntoView({behavior:'smooth',block:'start'});
+};
+panels.forEach((p,i)=>{
+  const b=document.createElement('button');
+  const icon=document.createElement('span');
+  icon.className='tab-icon';
+  icon.setAttribute('aria-hidden','true');
+  icon.textContent=p.dataset.icon;
+  const label=document.createElement('span');
+  label.textContent=p.dataset.title;
+  b.append(icon,label);
+  b.onclick=()=>activatePanel(i);
+  bar.appendChild(b);
+});
+document.querySelectorAll('[data-go-panel]').forEach(link=>{
+  link.addEventListener('click',()=>activatePanel(Number(link.dataset.goPanel)));
+});
+panels[0].classList.add('active');bar.children[0].classList.add('active');
+</script>
+</body>
+</html>
