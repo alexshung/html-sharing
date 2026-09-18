@@ -19,6 +19,9 @@ h1{max-width:18ch;margin:0 0 10px;font-size:clamp(32px,6vw,56px);line-height:1.0
 .sub{max-width:76ch;margin:0;color:#e6f5f2;font-size:15px;line-height:1.55;text-wrap:pretty}
 .trip-meta{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
 .address-card,.meta-pill{display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:9px 13px;border:1px solid rgba(255,255,255,.32);border-radius:13px;color:#fff;background:rgba(255,255,255,.12);font-size:14px;font-weight:750;line-height:1.25;text-decoration:none;backdrop-filter:blur(8px)}
+.print-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:9px 14px;border:1px solid rgba(255,255,255,.38);border-radius:13px;color:var(--lake-dark);background:#fff;font:inherit;font-size:14px;font-weight:800;line-height:1.25;cursor:pointer;box-shadow:0 5px 14px rgba(8,43,52,.14);transition:transform .16s ease,background .16s ease}
+.print-button:hover{background:#eef9f6;transform:translateY(-1px)}
+.print-button:focus-visible{outline:3px solid rgba(244,184,96,.75);outline-offset:2px}
 .address-card{background:rgba(255,255,255,.19);transition:transform .16s ease,background .16s ease}
 .address-card:hover{color:#fff;background:rgba(255,255,255,.27);transform:translateY(-1px)}
 .meta-pill[href]:hover{color:#fff;background:rgba(255,255,255,.22);transform:translateY(-1px)}
@@ -90,6 +93,22 @@ a:hover{color:#064f59}
 @media(max-width:560px){.timeline{grid-template-columns:1fr;gap:8px}.timeline-card{min-height:92px;padding:36px 12px 11px}.address-card,.meta-pill{width:100%}.meta-pill{justify-content:center}.trip-meta{display:grid;grid-template-columns:1fr}.checklist li{padding-right:11px}.warn{padding:12px 13px}.photo-card{border-radius:13px}}
 @media(max-width:380px){.amenity-strip{grid-template-columns:1fr}.page-shell{width:min(100% - 12px,1120px)}.panel{padding-right:12px;padding-left:12px}.hero{padding-right:15px;padding-left:15px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+@media print{
+@page{margin:.55in}
+*{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+html,body{background:#fff!important;font-size:10.5pt;line-height:1.45}
+.page-shell{width:100%;margin:0;padding:0}
+.hero{padding:0 0 20px;border:0;border-bottom:2px solid #164e63;border-radius:0;color:var(--ink);background:#fff;box-shadow:none}
+.hero::after,.tabs,.print-button{display:none!important}
+.hero-copy{max-width:none}.eyebrow{color:var(--lake)}h1{max-width:none;color:var(--lake-dark);font-size:30pt}.sub{max-width:none;color:var(--ink)}
+.trip-meta{margin-top:12px}.address-card,.meta-pill{min-height:0;padding:5px 8px;border-color:var(--line);color:var(--ink)!important;background:#fff;box-shadow:none}.address-icon{border:1px solid var(--line)}
+.hero .warn{margin-top:12px;border-color:#d9c28c;background:#fff8e8}
+.panel{display:block!important;overflow:visible;margin:0;padding:22px 0 0;border:0;border-radius:0;background:#fff;box-shadow:none;animation:none;break-before:page}
+.tabs+.panel{break-before:auto}.panel::after{display:none}.panel h2{max-width:none;color:var(--lake-dark);font-size:21pt}.panel h3{break-after:avoid}
+table,.grid2>div,.photo-card,.amenity,.warn,.checklist li,.packing-checklist label{box-shadow:none;break-inside:avoid}
+table{font-size:9pt}th,td{padding:7px 8px;font-size:9pt}.grid2{gap:10px}.grid2>div{padding:3px 10px 8px}.photo-grid{gap:8px}.photo-card figcaption{padding:7px 8px;font-size:8pt}.packing-checklist label{min-height:0;padding:6px 7px}.packing-checklist input{width:14px;height:14px}.checklist{gap:7px}.checklist li{padding:8px 10px 8px 36px}.checklist li::before{top:8px;left:9px}
+a{color:inherit;text-decoration:none}
+}
 </style>
 </head>
 <body>
@@ -103,6 +122,7 @@ a:hover{color:#064f59}
 <div class="trip-meta">
 <a class="address-card" href="https://www.google.com/maps/search/?api=1&amp;query=2028+Garmish+Ct%2C+South+Lake+Tahoe%2C+CA+96150" aria-label="Open 2028 Garmish Court in Google Maps"><span class="address-icon" aria-hidden="true">⌖</span><span>2028 Garmish Ct<br>South Lake Tahoe, CA 96150</span></a>
 <a class="meta-pill" href="https://www.vrbo.com/9351196ha?dateless=true">🏡 View VRBO listing ↗</a><span class="meta-pill">🚙 Two cars</span>
+<button class="print-button" type="button" onclick="window.print()" aria-label="Print the complete itinerary">🖨️ Print full itinerary</button>
 </div>
 <div class="warn"><b>Arrival-day plan · Sat Sept 26:</b> Your car is You + Amy + Jesse + Xander and will stop at the family graves for the death anniversary on the drive to Tahoe. Dennis + Felix travel in the other car. During the stay, use the cars flexibly when nap or walking limits diverge.</div>
 </header>
